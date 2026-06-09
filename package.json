@@ -6,8 +6,8 @@
   "author": "Mathieu Acthernoene <zoontek@gmail.com>",
   "homepage": "https://github.com/beedeez/react-native-localize",
   "types": "index.d.ts",
-  "main": "lib/commonjs/index.js",
-  "module": "lib/module/index.js",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/beedeez/react-native-localize.git"
@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "precommit": "lint-staged",
-    "prepare": "bob build",
+    "prepare": "",
     "format": "prettier '**/*.{js,json,md,ts,tsx}' --write",
     "typecheck": "flow ."
   },
